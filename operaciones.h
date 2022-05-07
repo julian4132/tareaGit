@@ -19,6 +19,12 @@ int resta(int a, int b);
 int producto(int a, int b);
 
 /*
+ * Decide si realmente se puede calcular la division entera entre a y b
+ */
+
+int divisionEnteraValida(int a, int b);
+
+/*
  * Calcula la división entera de dos números enteros
  */
 int divisionEntera(int a, int b);
