@@ -13,5 +13,15 @@ int suma(int a, int b);
  */
 int resta(int a, int b);
 
+/*
+ * Calcula el producto de dos números enteros
+ */
+int producto(int a, int b);
+
+/*
+ * Calcula la división entera de dos números enteros
+ */
+int divisionEntera(int a, int b);
+
 
 #endif
