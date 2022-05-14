@@ -43,7 +43,7 @@ int producto(int a, int b){
 }
 
 int divisionEnteraValida(int a, int b){
-    return (b!=0);
+    return !((b==0)||((a==INT_MIN)&&(b==-1)));
 }
 
 
